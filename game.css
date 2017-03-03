@@ -1,0 +1,178 @@
+﻿body
+{
+	width: 100%;
+	font-family: Tahoma;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	background-color: black;	
+}
+
+h1
+{
+	font-size: 24px;
+}
+
+#map
+{
+	height: 720px;
+	width: 1000px;
+	margin: 0 auto;
+	background-image: url(assets/map.jpg);
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+#info
+{
+	width: 100%;
+	height: 114px;
+	margin-bottom: 5px;
+	background-color: #555;
+	margin-top: -8px;
+	text-align: left;	
+}
+
+.playerinfo {
+    display: inline-block;
+    vertical-align: top;
+    width: 160px;
+    height: 105px;
+    box-sizing: border-box;
+    margin: 4px 2px 2px 2px;
+    padding: 2px 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.assets {
+    width: 138px;
+    height: 56px;
+    font-size: 11px;
+    color: lightyellow;
+    padding: 2px;
+    border: 1px dotted #aaa;
+    border-radius: 5px;
+    overflow-y: scroll;
+    display: inline-block;
+}
+
+
+#log_message
+{
+	list-style-type: none;
+	box-sizing: border-box;
+	display: inline-block;
+	height: 105px;
+	min-width: 200px;
+	width: 50%;
+    margin: 2px 2px 2px 15px;	
+	padding: 4px 4px 4px 15px;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	overflow-y: scroll;
+}
+
+
+.money
+{
+	font-size: 18px;
+	color: lime;
+	vertical-align: 4px;
+	margin-left: 5px;
+	float:left;
+	margin-top: 5px;
+}
+
+.debtor
+{
+	color: #F95F3A;
+}
+
+.bankrupt {
+    color: yellow;
+    font-weight: bold;
+}
+
+
+.money:before
+{
+	content: '$';
+}
+
+.money.bankrupt:before
+{
+	content: ''
+}
+
+.player-icon
+{	
+	float:left;
+}
+
+li.msg
+{
+	font-size: 11px;
+    line-height: 1.1;
+}
+
+li.turn
+{
+	font-size: 12px;
+	color: lightblue;
+	margin-top: 4px;
+}
+
+#controls
+{
+    display: inline-block;
+    float: right;
+	z-index: 100;
+	border: 1px solid white;
+	background-color: #31708f;
+	height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 10px;
+	width: 100px;
+}
+
+#dice
+{
+	font-size: 30px;
+	color: white;
+}
+
+#go
+{
+    margin-top: 10px;
+    width: 50%;
+    height: 25px;
+    font-size: 16px;
+}
+
+.joker{
+	display: none;
+	background-color: black;
+	border: 1px solid white;
+	width: 7px;
+	height: 7px;
+	float: right;
+	margin-right: 3px;
+	margin-top: -1px
+}
+
+.trump{
+	display: none;
+	background-color: yellow;
+	border: 1px solid white;
+	width: 7px;
+	height: 7px;
+	float: right;
+	margin-right: 3px;
+	margin-top: -1px;
+}
+
+
+
